@@ -1,0 +1,73 @@
+@media (min-width: 1024px) {
+  body conteiner .header {
+    grid-template-rows: 5vw 2vw;
+    height: 7vw;
+  }
+  body conteiner .header .avatar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  body conteiner .header .avatar img {
+    grid-column: 1;
+    width: 5vw;
+    height: 5vw;
+  }
+  body conteiner .header .avatar p {
+    display: grid;
+    align-items: center;
+    grid-column: 2;
+    text-align: center;
+    font-size: calc(1em + 1vw);
+  }
+  body conteiner .header .main {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    height: 100%;
+    align-items: center;
+    -moz-column-gap: 10%;
+         column-gap: 10%;
+  }
+  body conteiner .header .main li {
+    font-size: calc(1em + 1vw);
+  }
+  body conteiner .header figure audio {
+    width: 60vw;
+    height: 2vw;
+    margin: 0.5vw 0 0 0;
+  }
+  body conteiner .byography {
+    margin: 0 10%;
+    font-size: calc(1em + 1vw);
+  }
+  body conteiner .byography .my-content {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  body conteiner .byography .my-content .start {
+    grid-column: 1;
+  }
+  body conteiner .byography .my-content .end {
+    grid-column: 2;
+  }
+  body conteiner .codewars {
+    grid-row: 3;
+  }
+  body conteiner .codewars a img {
+    padding: 0% 10%;
+  }
+  body conteiner map {
+    margin: 0 10%;
+  }
+  body conteiner .skills {
+    margin: 0 10%;
+  }
+  body conteiner .best-profession {
+    margin: 0 10%;
+    font-size: calc(1em + 1vw);
+  }
+  body conteiner .best-profession .explanation {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+}

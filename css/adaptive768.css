@@ -1,0 +1,58 @@
+@media (min-width: 768px) {
+  body conteiner .header {
+    grid-template-rows: 18vw 7vw;
+    height: 25vw;
+  }
+  body conteiner .header .avatar img {
+    grid-column: 1;
+    width: 15vw;
+    height: 15vw;
+  }
+  body conteiner .header .avatar p {
+    display: grid;
+    align-items: center;
+    grid-column: 2;
+    text-align: center;
+    font-size: calc(1em + 1vw);
+  }
+  body conteiner .header .main {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 8vw;
+    -moz-column-gap: 10%;
+         column-gap: 10%;
+  }
+  body conteiner .header .main li {
+    font-size: calc(1em + 2vw);
+  }
+  body conteiner .header figure audio {
+    width: 70vw;
+    height: 4vw;
+    margin: 5.5vw 0 0 0;
+  }
+  body conteiner .byography .my-content {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  body conteiner .byography .my-content .start {
+    grid-column: 1;
+  }
+  body conteiner .byography .my-content .end {
+    grid-column: 2;
+  }
+  body conteiner .skills .skills-info {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  body conteiner .skills .skills-info ul {
+    text-align: start;
+    margin: 0 5%;
+  }
+  body conteiner .skills .skills-info ul li {
+    margin: 2%;
+  }
+  body conteiner .best-profession .explanation {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+}

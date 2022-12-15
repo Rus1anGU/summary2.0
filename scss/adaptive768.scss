@@ -1,0 +1,74 @@
+@media (min-width: 768px) {
+   body {
+      conteiner {
+
+         .header {
+            grid-template-rows: 18vw 7vw;
+            height: 25vw;
+            .avatar {
+               
+               img {
+                  grid-column: 1;
+                  width: 15vw;
+                  height: 15vw;
+               }
+               p {
+                  display: grid;
+                  align-items: center;
+                  grid-column: 2;
+                  text-align: center;
+                  font-size: calc(1em + 1vw);
+               }
+            }
+            .main {
+               grid-template-columns: 1fr 1fr;
+               grid-template-rows: 1fr 1fr;
+               height: 8vw;
+               column-gap: 10%;
+               li {
+                  font-size: calc(1em + 2vw);
+               }
+            }
+            figure {
+               audio {
+                  width: 70vw;
+                  height: 4vw;
+                  margin: 5.5vw 0 0 0;
+               }
+            }
+         }
+
+         .byography {
+            .my-content {
+               grid-template-columns: 1fr 1fr;
+               grid-template-rows: 1fr;
+               .start {
+                  grid-column: 1;
+               }
+               .end {
+                  grid-column: 2;
+               }
+            }
+         }
+         .skills {
+            .skills-info {
+               grid-template-columns:1fr 1fr;
+               grid-template-rows: 1fr;
+               ul {
+                  text-align: start;
+                  margin: 0 5%;
+                  li {
+                     margin: 2%;
+                  }
+               }
+            }
+         }
+         .best-profession {
+            .explanation {
+               grid-template-columns: 1fr 1fr;
+               grid-template-rows: 1fr;
+            }
+         }
+      }
+   }
+}

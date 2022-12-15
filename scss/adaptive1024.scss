@@ -1,0 +1,85 @@
+@media (min-width: 1024px) {
+   body {
+      
+      conteiner {
+
+         .header {
+            grid-template-rows: 5vw 2vw;
+            height: 7vw;
+            .avatar {
+               display: grid;
+               grid-template-columns: 1fr 1fr;
+               grid-template-rows: 1fr;
+               img {
+                  grid-column: 1;
+                  width: 5vw;
+                  height: 5vw;
+                  
+               }
+               p {
+                  display: grid;
+                  align-items: center;
+                  grid-column: 2;
+                  text-align: center;
+                  font-size: calc(1em + 1vw);
+               }
+            }
+            .main {
+               grid-template-columns: 1fr 1fr 1fr 1fr;
+               grid-template-rows: 1fr;
+               height: 100%;
+               align-items: center;
+               column-gap: 10%;
+               li {
+                  font-size: calc(1em + 1vw);
+               }
+            }
+            figure {
+               audio {
+                  width: 60vw;
+                  height: 2vw;
+                  margin: 0.5vw 0 0 0;
+               }
+            }
+         }
+
+         .byography {
+            margin: 0 10%;
+            font-size: calc(1em + 1vw);
+            .my-content {
+               grid-template-columns: 1fr 1fr;
+               grid-template-rows: 1fr;
+               
+               .start {
+                  grid-column: 1;
+               }
+               .end {
+                  grid-column: 2;
+               }
+            }
+         }
+         .codewars{
+            grid-row: 3;
+            a{
+               img{
+                  padding: 0% 10% ;
+               }
+            }
+         }
+         map {
+            margin: 0 10%;
+         }
+         .skills {
+            margin: 0 10%;
+         }
+         .best-profession {
+            margin: 0 10%;
+            font-size: calc(1em + 1vw);
+            .explanation {
+               grid-template-columns: 1fr 1fr;
+               grid-template-rows: 1fr;
+            }
+         }
+      }
+   }
+}
